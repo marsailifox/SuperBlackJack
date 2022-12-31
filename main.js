@@ -1,7 +1,7 @@
 document.getElementById("play").addEventListener("click", function() {
   if (document.querySelector('h2').innerText === "HIT" ||       
   document.querySelector('h2').innerText === "STAY") {
-  document.querySelector('h2').innerText = "You'll definitely win this time!", document.querySelector('h3').innerText = ""
+  document.querySelector('h2').innerText = "You'll definitely win this time!"
 } else {
   document.querySelector('h2').innerText = "Alright, Hoss...",   
   document.querySelector('h3').remove()}
