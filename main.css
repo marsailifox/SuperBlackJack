@@ -1,15 +1,39 @@
 html, body {
     height: 100%;
     width: 100%;
-  }
+}
   
-  h1 {
+h1 {
     color: pink;
-    font-size: 70px;
+    font-size: 65px;
     text-shadow: -1mm 1mm 0 white;
-  }
+    margin: 10px;
+}
 
-  body {
+h2 {
+    color: white;
+    font-size: 35px;
+    text-shadow: -1mm .5mm black;
+}
+
+h3 {
+    text-shadow: -1mm .5mm white;
+    border: 2mm solid #fbeef1;
+}
+
+body {
       text-align: center;
       background-color: aqua;
-  }
+}
+
+img {
+    border: 2mm solid pink;
+    height: 250px;
+    width: 175px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+}
