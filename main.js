@@ -31,7 +31,7 @@ document.getElementById("standBtn").addEventListener("click", function() {
   if (parseInt(dealerTotal.innerText) > 21) {
     h2.innerText = "DEALER BUST! YOU WIN!"
   }
-  if (parseInt(dealerTotal.innerText) < parseInt(playerTotal.innerText) && parseInt(playerTotal.innerText) != 21 && parseInt(dealerTotal.innerText) > 0) {
+  if (parseInt(dealerTotal.innerText) < parseInt(playerTotal.innerText) && parseInt(playerTotal.innerText) != 21 && parseInt(dealerTotal.innerText) > 0 && parseInt(playerTotal.innerText) < 22) {
     h2.innerText = "YOU WIN!"
   }
   if (parseInt(dealerTotal.innerText) > parseInt(playerTotal.innerText) && parseInt(dealerTotal.innerText) < 22) {
