@@ -17,7 +17,7 @@ document.getElementById("play").addEventListener("click", function() {
 document.getElementById("hitBtn").addEventListener("click", function() {
   if (h2.innerText === "Howdy Partner! Feelin' Lucky?") {
     h2.innerText = "Slow down, boss, press the PLAY button!"}
-  else if (h2.innerText != "Slow down, boss, press the PLAY button!" && h2.innerText != "DEALER BUST! YOU WIN!" && h2.innerText != "YOU WIN!" && parseInt(playerTotal.innerText) < 21 && h2.innerText != "HOUSE WINS! YOU LOSE!") {
+  else if (h2.innerText != "Slow down, boss, press the PLAY button!" && h2.innerText != "DEALER BUST! YOU WIN!" && h2.innerText != "YOU WIN!" && parseInt(playerTotal.innerText) < 21 && h2.innerText != "HOUSE WINS! YOU LOSE!" && h2.innerText != "TIE! WOW!") {
     h2.innerText = "HIT", playerTotal.innerText = parseInt(playerTotal.innerText) + cards[cards.length * Math.random() | 0]} 
   if (parseInt(playerTotal.innerText) === 21) {h2.innerText = "WOW! BLACKJACK! YOU WIN!"}
   else if (playerTotal.innerText > 21) {h2.innerText = "BUSTED!"}
