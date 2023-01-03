@@ -39,30 +39,19 @@ h3 {
   background-color: pink;
 }
 
-footer {
+h4 {
   text-align: center;
   font-size: 20px;
   margin: 0px;
   background-color: pink;
   width: 250px;
-  justify-content: center;
 }
+
+
 
 #copyright {
   font-size: 12px;
   margin: 0px;
-}
-
-p {
-  padding: 5px;
-  padding-right: 5%;
-}
-
-span {
-  padding: 5px;
-  padding-right: 10%;
-  position: absolute;
-  padding-left: 20px;
 }
 
 body {
@@ -105,8 +94,10 @@ button {
 
 #dealerTotal {
   text-align: center;
+  padding: 5px;
 }
 
 #playerTotal {
   text-align: center;
+  padding: 5px;
 }
