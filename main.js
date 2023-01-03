@@ -26,7 +26,7 @@ document.getElementById("hitBtn").addEventListener("click", function() {
 document.getElementById("standBtn").addEventListener("click", function() {
   if (h2.innerText === "Howdy Partner! Feelin' Lucky?") {
     h2.innerText = "Slow down, boss, press the PLAY button!"}
-  if (h2.innerText != "Slow down, boss, press the PLAY button!" && h2.innerText != "BUSTED!" && h2.innerText != "HOUSE WINS! YOU LOSE!" && parseInt(dealerTotal.innerText) < 22 && parseInt(playerTotal.innerText) != 21 && parseInt(playerTotal.innerText) > 0)
+  if (h2.innerText != "Slow down, boss, press the PLAY button!" && h2.innerText != "YOU WIN!" && h2.innerText != "BUSTED!" && h2.innerText != "HOUSE WINS! YOU LOSE!" && parseInt(dealerTotal.innerText) < 22 && parseInt(playerTotal.innerText) != 21 && parseInt(playerTotal.innerText) > 0)
    {dealerTotal.innerText = dealerMove[dealerMove.length * Math.random() | 0]}
   if (parseInt(dealerTotal.innerText) > 21) {
     h2.innerText = "DEALER BUST! YOU WIN!"
