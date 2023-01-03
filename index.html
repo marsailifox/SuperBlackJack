@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -9,21 +8,20 @@
   <script src="main.js" defer></script>
 </head>
 
-<body>
+  <body>
   <h1>Super BlackJack!</h1>
     <h2>Howdy Partner! Feelin' Lucky?</h2>
-      <h3>Press PLAY to Start!</h3>
-
+      <h3 class="blink_me">Press PLAY to Start!</h3>
   <div id="dealer-hand">
-      <img src="https://i.imgur.com/gQsvd6s.jpg?2">
+    <p>Dealer Total:</p><span id="dealerTotal"></span><img src="https://i.imgur.com/gQsvd6s.jpg?2">
     </div>
-
-    <button id= "play">Play/Reset</button>
+  <div id="buttons">
+    <button id="play">Play/Reset</button>
     <button id="hitBtn">Hit</button>
     <button id="stayBtn">Stay</button>
-
+  </div>
     <div id="player-hand">
-        <img src="https://i.imgur.com/gQsvd6s.jpg?2">
+    <p>Player Total:</p><span id="playerTotal"></span><img src="https://i.imgur.com/gQsvd6s.jpg?2">
     </div>
 </body>
 
