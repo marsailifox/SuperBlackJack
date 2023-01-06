@@ -1,1 +1,47 @@
+body {
+  text-align: center;
+  background-color: aqua;
+  border: 2mm solid pink;
+}
 
+#results {
+  color: black;
+  background-color: pink;
+  font-size: 100px;
+  margin: 0px;
+}
+
+#dealer-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#your-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#hit {
+  width: 140px;
+  height: 50px;
+  font-size: 25px;
+  background-color: white;
+}
+
+#stay {
+  width: 140px;
+  height: 50px;
+  font-size: 25px;
+  background-color: white;
+}
+
+#reset {
+  width: 120px;
+  height: 50px;
+  font-size: 25px;
+  background-color: red;
+  margin: 5px;
+  color: white;
+}
